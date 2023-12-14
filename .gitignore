@@ -52,8 +52,10 @@ files/*
 !files/PageHeader_bandeau_19880101000000_23001231235959.webp
 themes/*
 !themes/README.md
-custom/*
 !custom/.gitkeep
+custom/*
+!custom/actions/*
+!custom/actions
 private/*
 !private/.htaccess
 !private/backups
