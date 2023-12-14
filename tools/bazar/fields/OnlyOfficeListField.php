@@ -22,10 +22,11 @@ class OnlyOfficeListField extends EnumField
         $options = [
             'document' => 'Document Type',
             'presentation' => 'Presentation Type',
-            'spreadsheet' => 'Spreadsheet Type'
+            'spreadsheet' => 'Spreadsheet Type',
+            'form' => 'Form Type'
         ];
 
-        return $this->render('@bazar/inputs/onlyoffice.twig', [
+        return $this->render('@bazar/inputs/select.twig', [
             'value' => $this->getValue($entry),
             'options' => $options
         ]);
@@ -36,7 +37,7 @@ class OnlyOfficeListField extends EnumField
         $value = $this->getValue($entry);
 
         if( !$value ) return "";
-        return $this->render('@bazar/fields/onlyoffice.twig', [
+        return $this->render('@bazar/fields/select.twig', [
             'urlFinal' => $this->getWiki()->config['onlyoffice_url'] . '?' . $entry['urlFinal']
         ]);
     }
@@ -44,7 +45,6 @@ class OnlyOfficeListField extends EnumField
     // Format input values before save
     public function formatValuesBeforeSave($entry)
     {
-        //return ['url' => $urlFinal];
         if( $entry['urlFinal'] ) return [];
     
         $client = new Client();
@@ -60,6 +60,9 @@ class OnlyOfficeListField extends EnumField
                 break;
             case "presentation":
                 $ext = "?fileExt=pptx";
+                break;
+            case "form":
+                $ext = "?fileExt=docxf";
                 break;
         }
 

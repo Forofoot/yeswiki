@@ -15,6 +15,7 @@ actions:
           document: Document
           spreadsheet: Spreadsheet
           presentation: Presentation
+          form: Formulaire
       height:
         label: Hauteur de l'iframe
         value: 1000
