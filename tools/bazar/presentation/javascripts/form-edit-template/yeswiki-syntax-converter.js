@@ -23,6 +23,7 @@ window.yesWikiTypes = {
   radiofiche: { type: 'radio-group', subtype2: 'form' },
   fichier: { type: 'file', subtype: 'file' },
   champs_cache: { type: 'hidden' },
+  onlyoffice: { type: 'onlyoffice', subtype2: 'list' },
   listefiches: { type: 'listefichesliees' }
 }
 

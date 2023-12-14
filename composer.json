@@ -34,6 +34,7 @@
         "doctrine/cache": "^1.10",
         "enshrined/svg-sanitize": "^0.16.0",
         "ezyang/htmlpurifier": "^4.14",
+        "guzzlehttp/guzzle": "7.0",
         "jbroadway/urlify": "^1.2",
         "nesbot/carbon": "^2.66.0",
         "oomphinc/composer-installers-extender": "^2.0",

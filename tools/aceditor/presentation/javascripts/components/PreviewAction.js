@@ -2,7 +2,11 @@ export default {
   props: ['wikiCode', 'height'],
   computed: {
     previewIframeUrl() {
-      if (!this.wikiCode) return ''
+      if (!this.wikiCode || this.wikiCode.includes('onlyoffice="true"')) return ''
+      // if (!this.wikiCode) return ''
+      if (this.wikiCode.indexOf('wiki/render') > -1) {
+        return this.wikiCode
+      }
       const result = wiki.url('wiki/render', { content: this.wikiCode })
       return result
     }

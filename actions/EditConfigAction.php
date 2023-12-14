@@ -21,6 +21,7 @@ class EditConfigAction extends YesWikiAction
         'htmlPurifierActivated' => 'core',
         'favorites_activated' => 'core',
         'preview_before_save' => 'core',
+        'onlyoffice_url' => 'core',
 
         'default_read_acl' => 'access',
         'default_write_acl' => 'access',

@@ -556,6 +556,7 @@ return [
     'EDIT_CONFIG_GROUP_CORE' => 'Paramètres Principaux',
     'EDIT_CONFIG_GROUP_ACCESS' => 'Droit d\'accès',
     'EDIT_CONFIG_GROUP_EMAIL' => 'Emails',
+    'EDIT_CONFIG_HINT_ONLYOFFICE_URL' => "Url d'accès à onlyoffice",
 
     // actions/userstable.php
     'USERSTABLE_USER_DELETED' => 'L\'utilisateur "{username}" a été supprimé.',

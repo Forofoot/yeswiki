@@ -1,0 +1,28 @@
+label: "Only office (experimental)"
+position: 2000
+onlyForAdmins: true
+previewHeight: 200px
+actions: 
+  iframe:
+    label: Label de l'iframe
+    description: Description de l'iframe
+    properties:
+      document:
+        label: Type de document
+        type: list
+        value: document
+        options:
+          document: Document
+          spreadsheet: Spreadsheet
+          presentation: Presentation
+      height:
+        label: Hauteur de l'iframe
+        value: 1000
+        type: number
+        required: true
+      onlyoffice:
+        label: URL de l'instance OnlyOffice
+        value: true
+        hidden: true
+        type: boolean
+      

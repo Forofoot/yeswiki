@@ -108,6 +108,8 @@ echo "<script>
     };
 </script>";
 
+echo "<script src=\"http://localhost/web-apps/apps/api/documents/api.js\"></script>";
+
 // on affiche
 echo $yeswiki_javascripts;
 
