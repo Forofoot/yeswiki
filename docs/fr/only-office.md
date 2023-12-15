@@ -29,7 +29,7 @@ IframeAction.php, onlyoffice.js, only-office.yaml, OnlyOfficeListField.php
 Une installation du service Only office sur votre environnement est nécessaire.
 Nous avons choisi de l'installer via docker afin de profiter d'une version stable tout en un.
 
-_Rappel : à travers cette installation vous utiliserez une version gratuite d'only office, certaines fonctionnalitées seront indisponibles tout comme le nomenclature de fichiers_
+_Rappel : à travers cette installation vous utiliserez une version gratuite d'only office, certaines fonctionnalités seront indisponibles tout comme la nomenclature de fichiers_
 
 #### Docker
 
@@ -55,6 +55,7 @@ Pour plus d'infos :
 Lors de la création d'un nouveau document only office, différentes urls sont appelées :
 
 **Création d'un nouveau document** : [URL exemple](http://localhost/example/editor?fileExt=pptx)
+
 **Édition du document** : [URL exemple](http://localhost/example/editor?fileName=new.pptx)
 
 _L'extension du document varie en fonction du type de document choisi_
