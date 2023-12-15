@@ -10,7 +10,7 @@ Les différents documents only office peuvent être utilisés dans les fiches Ba
 
 ## Fonctionnalités Principales
 
-### Whiteboard
+### Only Office 
 
 Lors de la création d'un composant only office sur une nouvelle page certains champs sont requis : 
   - Un champs de sélection permettant le choix d'un document ( **Document, Spreadsheet, Presentation, Formulaire** )
